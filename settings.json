@@ -1,0 +1,48 @@
+{
+    "editor.fontSize": 20,
+    "editor.bracketPairColorization.enabled": true,
+    "python.defaultInterpreterPath": "/bin/python",
+    "editor.renderWhitespace": "all",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "FireFly Pro",
+    
+    "indentRainbow.colors": [
+      "rgba(255,255,64,0.08)",
+      "rgba(127,255,127,0.08)",
+      "rgba(255,127,255,0.10)",
+      "rgba(79,236,236,0.09)"
+    ],
+    
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+          {
+            "scope": [
+              //following will be in italic (=FlottFlott)
+              "comment",
+              "entity.name.type.class", //class names
+              "keyword", //import, export, return…
+              "constant", //String, Number, Boolean…, this, super
+              "storage.modifier", //static keyword
+              "storage.type.class.js", //class keyword
+            ],
+            "settings": {
+              "fontStyle": "italic bold"
+            }
+          },
+          {
+            "scope": [
+              //following will be excluded from italics (VSCode has some defaults for italics)
+              "invalid",
+              "keyword.operator",
+              "constant.numeric.css",
+              "keyword.other.unit.px.css",
+              "constant.numeric.decimal.js",
+              "constant.numeric.json"
+            ],
+            "settings": {
+              "fontStyle": ""
+            }
+          }
+        ]
+    }
+}
