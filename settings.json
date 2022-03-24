@@ -1,7 +1,6 @@
 {
     "editor.fontSize": 20,
     "editor.bracketPairColorization.enabled": true,
-    "python.defaultInterpreterPath": "/bin/python",
     "editor.renderWhitespace": "all",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "FireFly Pro",
@@ -44,5 +43,8 @@
             }
           }
         ]
-    }
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "redhat.telemetry.enabled": false,
+    "explorer.openEditors.visible": 15
 }
