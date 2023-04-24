@@ -13,7 +13,7 @@ try {
 $extensionList | ForEach-Object {
 	try {
 		Write-Host "Installing extension $_"
-		Invoke-Expression "& '$vsCodeExec' --install-extension $_ --force"
+		Invoke-Expression "& code --install-extension $_ --force"
 		Write-Host # New-Line
 	} catch {
 		Write-Host "An error occurred when trying to install extension:"
