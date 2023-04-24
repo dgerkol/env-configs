@@ -46,5 +46,24 @@
     },
     "security.workspace.trust.untrustedFiles": "open",
     "redhat.telemetry.enabled": false,
-    "explorer.openEditors.visible": 15
+    "explorer.openEditors.visible": 15,
+
+    "gradle.javaDebug": {
+        "tasks": [
+          "run",
+          "runBoot",
+          "test",
+          "intTest",
+          "integration"
+        ]
+      },
+      "yaml.schemas": {
+        "file:///c%3A/Users/dan.gerkol/.vscode/extensions/docsmsft.docs-yaml-1.0.0/dist/toc.schema.json": "/toc\\.yml/i"
+      },
+      "terminal.integrated.defaultProfile.windows": "Git Bash",
+      "groovyLint.basic.loglevel": "error",
+      "files.eol": "\n",
+      "[python]": {
+        "editor.formatOnType": true
+      }
 }
