@@ -1,0 +1,2 @@
+#Default ubuntu
+PS1="\[$(tput bold)\]\[$(tput setaf 5)\][\u\[$(tput setaf 2)\] @ \[$(tput setaf 6)\]\w\[$(tput setaf 5)\]]\[$(tput setaf 2)\]\\$ \[$(tput sgr0)\]"
